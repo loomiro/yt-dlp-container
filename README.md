@@ -1,3 +1,3 @@
 `docker build -t yt-dlp .`
 
-`docker run --rm -v ./download:/app/download yt-dlp <video|audio> <url>`
+`docker run --rm -v ./download:/app/download ghcr.io/loomiro/yt-dlp:latest <video|audio> <url>`
